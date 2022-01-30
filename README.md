@@ -15,7 +15,7 @@ Installation notes:
 	127.0.0.1 fe.test.com
 	127.0.0.1 be.test.com 		
 	
-6.   Now you can check CRUD set of pages entering be.test.com:8888 in your browser.
+6.   Now you can check CRUD set of pages entering http://be.test.com:8888 in your browser.
    
 7.   To check REST API method you should install Postman plugin to Chrome (or some other plugin with similar functionality)
 	 Now you can enter the following data in Postman:
