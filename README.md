@@ -1,12 +1,15 @@
 Installation notes:
 
 1. Unpack zip
-2. Copy .env-dist to .env (if .env is absent)
-3. Check parameters in .env
-4. Build docker container
+2. Copy .env-dist to .env
+3. Check and parameters in .env if needed
+4. Build docker image, create and run containers
+
    docker-compose build
+   
    docker-compose up
-5. Update your hosts file adding corresponding records for FE_HOST and BE_HOST params.
+   
+5. Update your 'hosts' file by adding corresponding records for FE_HOST and BE_HOST params.
 
    Example: 
 	127.0.0.1 fe.test.com
